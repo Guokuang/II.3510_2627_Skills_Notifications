@@ -25,6 +25,7 @@ dependencies {
     androidTestImplementation("androidx.test:runner:1.7.0")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.7.0")
     implementation(project(":composeApp"))
+    implementation(project(":shared"))
     implementation(libs.androidx.appcompat)
     implementation("androidx.activity:activity-compose:1.13.0")
 }
